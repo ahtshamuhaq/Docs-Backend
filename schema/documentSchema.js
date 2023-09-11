@@ -1,38 +1,13 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const documentSchema = mongoose.Schema({
-    _id: {
-        type: String,
-        required: true
-    },
-    data: {
-       
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    }
+  _id: {
+    type: String,
+    required: true,
+  },
+  data: {},
 });
 
-const document = mongoose.model('document', documentSchema);
+const document = mongoose.model("document", documentSchema);
 
 export default document;

@@ -12,5 +12,4 @@ const Connection = async (username = "uahtsham27", password = "docs1234") => {
     console.log("Error while connecting with the database ", error);
   }
 };
-
 export default Connection;
